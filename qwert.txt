@@ -1,0 +1,7 @@
+import dropbox
+class TransferData:
+    def __init__(self,access_token):
+        self.access_token=access_token
+        
+    def uploadfile(self,file_from,file_to):
+        dbx=dropbox
